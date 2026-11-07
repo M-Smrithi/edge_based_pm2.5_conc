@@ -1,0 +1,23 @@
+{% extends "base.html" %}{% block body %}
+<section class="hero"><div class="wrap">
+  <p class="eyebrow">Research platform</p>
+  <h1>How much sensor data can an air-quality model afford to lose?</h1>
+  <p class="lead">A lightweight PM2.5 estimator runs in a simulated edge gateway. We introduce 0%, 10%, and 20% additional missingness into sensor readings, using random and consecutive patterns, and measure the effects on prediction accuracy and processing time.</p>
+  <div class="cta"><a class="btn primary" href="/predict">Try the Prediction Studio</a><a class="btn" href="/research">Open the Research Lab</a></div>
+</div></section>
+<section class="section"><div class="wrap">
+  <div id="kpis" class="grid g4"></div>
+</div></section>
+<section class="section alt"><div class="wrap">
+  <div class="grid g2">
+    <div class="card"><h3>Error grows as readings disappear</h3><p class="muted small" id="chart-note"></p><div id="home-chart"></div></div>
+    <div class="card"><h3>What this platform does</h3>
+      <div class="steps">
+        <div class="st"><div><strong>Estimates PM2.5</strong><br><span class="muted">from 12 co-located sensors for the same hour — not a forecast.</span></div></div>
+        <div class="st"><div><strong>Fills gaps locally</strong><br><span class="muted">missing readings are replaced by medians learned from training data only.</span></div></div>
+        <div class="st"><div><strong>Tests honestly</strong><br><span class="muted">a frozen benchmark with a later period and unseen stations; nothing is tuned on it.</span></div></div>
+        <div class="st"><div><strong>Learns from new data</strong><br><span class="muted">administrators add station files; models are retrained, compared and promoted under explicit checks.</span></div></div>
+      </div></div>
+  </div>
+</div></section>
+{% endblock %}{% block scripts %}<script src="{{ url_for('static', filename='js/home.js') }}"></script>{% endblock %}

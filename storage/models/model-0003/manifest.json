@@ -1,0 +1,37 @@
+{
+ "model_id": "model-0003",
+ "created_utc": "2026-11-04T01:28:24+00:00",
+ "dataset_version": "ds-0003",
+ "dataset_records_sha256": "fa3aebd88090cd0fdd597eb40aa622c91dab52859186ff9383979831baa26813",
+ "benchmark_id": "bench-v1",
+ "benchmark_sha256": "2f8e00e1a7083d14cf006a4d9f5cf96821e523cbbbe321f6fcec734dab0f719e",
+ "seed": 42,
+ "params": {
+  "n_estimators": 60,
+  "max_samples": 0.2,
+  "seed": 42
+ },
+ "selected": "random_forest_leaf10",
+ "model_sha256": "6a723efa9fbf19ef30622d1e1c58421def87ada6c607a607541de1702ad469e2",
+ "model_bytes": 78742026,
+ "train_rows": 1931112,
+ "val_rows": 410449,
+ "medians_fitted_on": "train split only",
+ "environment": {
+  "platform": "macOS-15.3.1-arm64-arm-64bit-Mach-O",
+  "python": "3.13.7",
+  "cpu_count": 8,
+  "machine": "arm64",
+  "sklearn": "1.9.1",
+  "numpy": "2.5.4"
+ },
+ "train_seconds": 287.2,
+ "artifacts": [
+  "model.joblib",
+  "preprocessing.json",
+  "schema.json",
+  "metrics.json",
+  "manifest.json",
+  "train.log"
+ ]
+}

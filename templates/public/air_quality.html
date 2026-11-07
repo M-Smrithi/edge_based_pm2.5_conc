@@ -1,0 +1,7 @@
+{% extends "base.html" %}{% block body %}
+<section class="section"><div class="wrap">
+  <p class="eyebrow">Air quality dashboard</p><h1>PM2.5 across the monitoring network</h1>
+  <p class="lead">Computed from the stations used by the research dataset (CPCB hourly records). Categories use CPCB PM2.5 breakpoints applied to hourly values.</p>
+  <div id="aq-body" class="stack"><div class="skel" aria-hidden="true">&nbsp;</div></div>
+</div></section>
+{% endblock %}{% block scripts %}<script src="{{ url_for('static', filename='js/air_quality.js') }}"></script>{% endblock %}

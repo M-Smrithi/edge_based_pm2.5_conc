@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ title }} · Admin · Edge Air</title><meta name="robots" content="noindex"><meta name="csrf" content="{{ csrf }}">
+<link rel="icon" href="{{ url_for('static', filename='img/logo.svg') }}" type="image/svg+xml">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}"></head>
+<body data-role="{{ user.role }}"><a class="skip" href="#main">Skip to content</a>
+<div class="shell">
+<aside class="side" aria-label="Admin navigation">
+  <a class="brand" href="/admin"><img src="{{ url_for('static', filename='img/logo.svg') }}" alt="" width="30" height="30"><span>Edge Air · Admin</span></a>
+  <nav>{% for href, key, label in [('/admin', 'overview', 'Overview'), ('/admin/datasets', 'datasets', 'Dataset Manager'), ('/admin/training', 'training', 'Model Training Center'), ('/admin/experiments', 'experiments', 'Experiment Manager'), ('/admin/models', 'models', 'Model Registry'), ('/admin/audit', 'audit', 'Audit Log'), ('/admin/settings', 'settings', 'Settings')] %}
+    <a href="{{ href }}" {% if page == key %}aria-current="page"{% endif %}>{{ label }}</a>{% endfor %}
+    <a href="/" target="_blank" rel="noopener">View public site ↗</a></nav>
+  <div class="me"><div>{{ user.email }}</div><div class="small"><span class="badge {{ 'info' if user.role == 'admin' else '' }}">{{ user.role }}</span> {% if user.role != 'admin' %}<span class="small">read-only</span>{% endif %}</div><p><a href="#" id="logout">Sign out</a></p></div>
+</aside>
+<div><div class="topbar"><button class="btn sm" id="sidebtn" aria-label="Open menu">☰</button><strong>{{ title }}</strong></div>
+<main id="main" class="content"><div class="ph"><h1>{{ title }}</h1><div class="sp" id="actions"></div></div><div id="page" class="stack"><div class="skel" aria-hidden="true">&nbsp;</div></div></main></div>
+</div>
+<script src="{{ url_for('static', filename='js/core.js') }}"></script>
+<script src="{{ url_for('static', filename='js/charts.js') }}"></script>
+<script src="{{ url_for('static', filename='js/admin_' + page + '.js') }}"></script>
+</body></html>

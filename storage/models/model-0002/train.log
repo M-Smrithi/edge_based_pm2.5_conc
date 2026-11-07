@@ -1,0 +1,9 @@
+13:08:16 dataset ds-0002 benchmark bench-v1 splits {'train': 1931112, 'val': 410449, 'test_temporal': 406561, 'test_spatial': 102520, 'reserve': 4100, 'excluded': 498363}
+13:08:17 train rows 1,931,112  val rows 410,449  natural missing in train 8.55%
+13:10:23 random_forest_leaf10: val RMSE 29.505 MAE 16.616 latency 2.67 ms size 78.7 MB fit 120s
+13:12:12 random_forest_leaf30: val RMSE 29.565 MAE 16.648 latency 2.54 ms size 27.7 MB fit 105s
+13:12:43 extra_trees: val RMSE 29.872 MAE 17.112 latency 2.61 ms size 74.7 MB fit 25s
+13:13:11 hist_gradient_boosting: val RMSE 29.647 MAE 16.763 latency 5.80 ms size 0.8 MB fit 26s
+13:13:11 SELECTED random_forest_leaf30 (validation only)
+13:13:16 post-selection test: {"test_temporal": 38.648, "test_spatial": 37.315}
+13:13:16 done in 301.5s

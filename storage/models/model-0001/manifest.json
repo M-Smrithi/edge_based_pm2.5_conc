@@ -1,0 +1,37 @@
+{
+ "model_id": "model-0001",
+ "created_utc": "2026-10-23T11:02:09+00:00",
+ "dataset_version": "ds-0001",
+ "dataset_records_sha256": "727178b97d2b728a7314c78268a380b2c05cd99d809167dc1a8f7510da287e7a",
+ "benchmark_id": "bench-v1",
+ "benchmark_sha256": "2f8e00e1a7083d14cf006a4d9f5cf96821e523cbbbe321f6fcec734dab0f719e",
+ "seed": 42,
+ "params": {
+  "n_estimators": 60,
+  "max_samples": 0.2,
+  "seed": 42
+ },
+ "selected": "random_forest_leaf10",
+ "model_sha256": "de54ae9579a86b221b965461d32022b7e127780aa21c302d6c1fbd652842cda9",
+ "model_bytes": 77342656,
+ "train_rows": 1897165,
+ "val_rows": 406547,
+ "medians_fitted_on": "train split only",
+ "environment": {
+  "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39",
+  "python": "3.13.16",
+  "cpu_count": 2,
+  "machine": "x86_64",
+  "sklearn": "1.9.1",
+  "numpy": "2.5.3"
+ },
+ "train_seconds": 281.6,
+ "artifacts": [
+  "model.joblib",
+  "preprocessing.json",
+  "schema.json",
+  "metrics.json",
+  "manifest.json",
+  "train.log"
+ ]
+}

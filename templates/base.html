@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ title }} · Edge Air</title>
+<meta name="description" content="Edge-based PM2.5 estimation under incomplete IoT sensor data: an open research platform.">
+<meta name="csrf" content="{{ csrf }}">
+<link rel="icon" href="{{ url_for('static', filename='img/logo.svg') }}" type="image/svg+xml">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="hdr"><div class="wrap">
+  <a class="brand" href="/"><img src="{{ url_for('static', filename='img/logo.svg') }}" alt="" width="30" height="30"><span>Edge Air</span></a>
+  <button class="burger" aria-label="Menu" aria-expanded="false"><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 5h14M2 9h14M2 13h14" stroke="#14182b" stroke-width="2" stroke-linecap="round"/></svg></button>
+  <nav class="nav" aria-label="Main">
+    {% for href, key, label in [('/', 'home', 'Overview'), ('/air-quality', 'air-quality', 'Air quality'), ('/predict', 'predict', 'Prediction Studio'), ('/research', 'research', 'Research Lab'), ('/methodology', 'methodology', 'Methodology')] %}
+    <a href="{{ href }}" {% if page == key %}aria-current="page"{% endif %}>{{ label }}</a>{% endfor %}
+    <a class="adm" href="/admin">Admin</a>
+  </nav>
+</div></header>
+<main id="main">{% block body %}{% endblock %}</main>
+<footer class="ftr"><div class="wrap"><span>Edge-Based Air Quality Prediction Under Incomplete IoT Sensor Data — research platform. Edge behaviour is a <strong>software simulation</strong>; no physical edge device is involved.</span><span><a href="/methodology">Methodology</a></span></div></footer>
+<script src="{{ url_for('static', filename='js/core.js') }}"></script>
+<script src="{{ url_for('static', filename='js/charts.js') }}"></script>
+{% block scripts %}{% endblock %}
+</body></html>

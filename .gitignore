@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+instance/
+storage/originals/
+storage/incoming/
+storage/predictions/
+storage/joblogs/
+*.building
+*.failed

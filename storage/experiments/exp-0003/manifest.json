@@ -1,0 +1,40 @@
+{
+ "experiment_id": "exp-0003",
+ "created_utc": "2026-11-04T01:16:46+00:00",
+ "model_id": "model-0002",
+ "model_sha256": "958f684743c0fc906af83f302dda16bed3e21af941f8e6194493bc139e6fdbe6",
+ "dataset_version": "ds-0002",
+ "benchmark_id": "bench-v1",
+ "benchmark_sha256": "2f8e00e1a7083d14cf006a4d9f5cf96821e523cbbbe321f6fcec734dab0f719e",
+ "trials": 10,
+ "rates": [
+  0.0,
+  0.1,
+  0.2
+ ],
+ "patterns": [
+  "random",
+  "consecutive"
+ ],
+ "seed": 2024,
+ "block_len_range": [
+  6,
+  48
+ ],
+ "latency_records": 200,
+ "latency_warmup": 20,
+ "environment": {
+  "platform": "macOS-15.3.1-arm64-arm-64bit-Mach-O",
+  "python": "3.13.7",
+  "cpu_count": 8,
+  "machine": "arm64",
+  "sklearn": "1.9.1",
+  "numpy": "2.5.4"
+ },
+ "seconds": 139.1,
+ "test_rows": {
+  "temporal": 406561,
+  "spatial": 102520
+ },
+ "note": "Software simulation on the host computer, not physical edge hardware."
+}

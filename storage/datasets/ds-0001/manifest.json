@@ -1,0 +1,3613 @@
+{
+ "dataset_version": "ds-0001",
+ "created_utc": "2026-10-23T10:57:00+00:00",
+ "n_files": 141,
+ "n_stations": 141,
+ "rows_before_dedup": 3310820,
+ "rows": 3310820,
+ "duplicates": {
+  "identical": 0,
+  "conflicting": 0,
+  "policy": "key=(station,timestamp); keep first by file order; later duplicates counted as 'identical' or 'conflicting'"
+ },
+ "ts_min": "2011-05-02T07:00:00",
+ "ts_max": "2023-03-31T23:00:00",
+ "complete_case_rows": 1598179,
+ "natural_missing_pct_by_sensor": {
+  "PM10": 13.767,
+  "NO": 4.907,
+  "NO2": 3.37,
+  "NOx": 4.304,
+  "SO2": 3.712,
+  "CO": 6.017,
+  "O3": 5.371,
+  "RH": 6.819,
+  "WS": 3.172,
+  "WD": 3.27,
+  "SR": 13.154,
+  "AT": 30.143
+ },
+ "features": [
+  "PM10",
+  "NO",
+  "NO2",
+  "NOx",
+  "SO2",
+  "CO",
+  "O3",
+  "RH",
+  "WS",
+  "WD",
+  "SR",
+  "AT"
+ ],
+ "target": "PM2.5",
+ "stations": [
+  "AP001",
+  "AP002",
+  "AP003",
+  "AP004",
+  "AP005",
+  "AP006",
+  "AP007",
+  "AP008",
+  "AP009",
+  "AP010",
+  "AR001",
+  "AS001",
+  "AS002",
+  "AS003",
+  "AS004",
+  "AS005",
+  "AS006",
+  "AS007",
+  "AS008",
+  "AS009",
+  "BR021",
+  "BR022",
+  "BR023",
+  "BR025",
+  "BR026",
+  "BR027",
+  "BR028",
+  "BR029",
+  "BR031",
+  "BR032",
+  "BR033",
+  "BR034",
+  "BR035",
+  "CG004",
+  "CG005",
+  "CG006",
+  "CG007",
+  "CG008",
+  "CG009",
+  "CG010",
+  "CG011",
+  "CG012",
+  "CG013",
+  "CH001",
+  "CH002",
+  "CH003",
+  "DL002",
+  "DL005",
+  "DL013",
+  "DL014",
+  "DL015",
+  "DL019",
+  "DL020",
+  "DL021",
+  "DL022",
+  "DL023",
+  "DL024",
+  "DL025",
+  "DL026",
+  "DL027",
+  "DL029",
+  "DL031",
+  "DL033",
+  "DL039",
+  "GJ001",
+  "GJ002",
+  "GJ003",
+  "GJ004",
+  "GJ007",
+  "GJ008",
+  "GJ010",
+  "GJ012",
+  "GJ013",
+  "GJ014",
+  "HP001",
+  "HR003",
+  "HR009",
+  "HR011",
+  "HR013",
+  "HR014",
+  "HR016",
+  "HR017",
+  "HR018",
+  "HR019",
+  "HR021",
+  "HR022",
+  "HR023",
+  "HR024",
+  "HR025",
+  "HR026",
+  "HR027",
+  "HR028",
+  "HR029",
+  "HR030",
+  "KA002",
+  "KA015",
+  "KA016",
+  "KA038",
+  "KA039",
+  "KL001",
+  "KL003",
+  "KL006",
+  "KL007",
+  "KL008",
+  "KL009",
+  "MH002",
+  "MH004",
+  "UP002",
+  "UP003",
+  "UP004",
+  "UP005",
+  "UP037",
+  "UP038",
+  "UP039",
+  "UP040",
+  "UP041",
+  "UP042",
+  "UP043",
+  "UP044",
+  "UP045",
+  "UP046",
+  "UP048",
+  "UP049",
+  "UP050",
+  "UP051",
+  "UP052",
+  "UP053",
+  "UP054",
+  "UP055",
+  "UP056",
+  "UP057",
+  "WB002",
+  "WB003",
+  "WB004",
+  "WB005",
+  "WB009",
+  "WB010",
+  "WB011",
+  "WB012",
+  "WB013",
+  "WB014"
+ ],
+ "per_station": [
+  {
+   "station": "AP001",
+   "rows": 54322,
+   "first": "2016-07-01T10:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 49756
+  },
+  {
+   "station": "AP002",
+   "rows": 14192,
+   "first": "2017-05-01T00:00:00",
+   "last": "2020-11-19T16:00:00",
+   "complete_case": 7850
+  },
+  {
+   "station": "AP003",
+   "rows": 44691,
+   "first": "2017-07-01T00:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 37728
+  },
+  {
+   "station": "AP004",
+   "rows": 46344,
+   "first": "2017-09-05T14:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 43427
+  },
+  {
+   "station": "AP005",
+   "rows": 42362,
+   "first": "2017-11-24T16:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 39286
+  },
+  {
+   "station": "AP006",
+   "rows": 5179,
+   "first": "2022-08-17T16:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 1556
+  },
+  {
+   "station": "AP007",
+   "rows": 2717,
+   "first": "2022-11-21T17:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 2427
+  },
+  {
+   "station": "AP008",
+   "rows": 2979,
+   "first": "2022-11-15T08:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 1667
+  },
+  {
+   "station": "AP009",
+   "rows": 1244,
+   "first": "2023-01-20T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 1176
+  },
+  {
+   "station": "AP010",
+   "rows": 1348,
+   "first": "2023-01-24T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 1282
+  },
+  {
+   "station": "AR001",
+   "rows": 7581,
+   "first": "2021-03-26T09:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 3959
+  },
+  {
+   "station": "AS001",
+   "rows": 33733,
+   "first": "2019-03-01T00:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 19699
+  },
+  {
+   "station": "AS002",
+   "rows": 17837,
+   "first": "2020-12-28T12:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "AS003",
+   "rows": 3724,
+   "first": "2022-09-19T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "AS004",
+   "rows": 3901,
+   "first": "2022-09-29T16:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 3493
+  },
+  {
+   "station": "AS005",
+   "rows": 2883,
+   "first": "2022-11-23T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 2462
+  },
+  {
+   "station": "AS006",
+   "rows": 2420,
+   "first": "2022-12-19T10:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 2084
+  },
+  {
+   "station": "AS007",
+   "rows": 2139,
+   "first": "2022-12-22T10:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 1484
+  },
+  {
+   "station": "AS008",
+   "rows": 1747,
+   "first": "2023-01-12T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 1237
+  },
+  {
+   "station": "AS009",
+   "rows": 728,
+   "first": "2023-03-01T00:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 571
+  },
+  {
+   "station": "BR021",
+   "rows": 10694,
+   "first": "2021-11-22T16:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 7966
+  },
+  {
+   "station": "BR022",
+   "rows": 7790,
+   "first": "2021-11-13T17:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 5733
+  },
+  {
+   "station": "BR023",
+   "rows": 11056,
+   "first": "2021-11-22T16:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 7213
+  },
+  {
+   "station": "BR025",
+   "rows": 10081,
+   "first": "2021-11-13T17:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 8710
+  },
+  {
+   "station": "BR026",
+   "rows": 11010,
+   "first": "2021-11-22T16:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 8425
+  },
+  {
+   "station": "BR027",
+   "rows": 6952,
+   "first": "2021-11-22T16:00:00",
+   "last": "2022-12-01T16:00:00",
+   "complete_case": 4192
+  },
+  {
+   "station": "BR028",
+   "rows": 8946,
+   "first": "2021-11-22T17:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 3905
+  },
+  {
+   "station": "BR029",
+   "rows": 10458,
+   "first": "2021-11-22T17:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 6813
+  },
+  {
+   "station": "BR031",
+   "rows": 9377,
+   "first": "2021-11-13T17:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 4928
+  },
+  {
+   "station": "BR032",
+   "rows": 10158,
+   "first": "2021-11-22T17:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 7449
+  },
+  {
+   "station": "BR033",
+   "rows": 10164,
+   "first": "2021-12-16T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 4789
+  },
+  {
+   "station": "BR034",
+   "rows": 7063,
+   "first": "2022-03-23T16:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 4471
+  },
+  {
+   "station": "BR035",
+   "rows": 5652,
+   "first": "2022-04-04T16:00:00",
+   "last": "2023-03-31T22:00:00",
+   "complete_case": 3922
+  },
+  {
+   "station": "CG004",
+   "rows": 1991,
+   "first": "2022-10-27T16:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 1874
+  },
+  {
+   "station": "CG005",
+   "rows": 2191,
+   "first": "2022-10-21T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 2147
+  },
+  {
+   "station": "CG006",
+   "rows": 2217,
+   "first": "2022-10-21T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 2146
+  },
+  {
+   "station": "CG007",
+   "rows": 2179,
+   "first": "2022-10-21T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 2086
+  },
+  {
+   "station": "CG008",
+   "rows": 1713,
+   "first": "2022-10-21T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 1455
+  },
+  {
+   "station": "CG009",
+   "rows": 1888,
+   "first": "2022-10-21T16:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 1611
+  },
+  {
+   "station": "CG010",
+   "rows": 2119,
+   "first": "2022-10-21T17:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 1607
+  },
+  {
+   "station": "CG011",
+   "rows": 1388,
+   "first": "2023-01-20T15:00:00",
+   "last": "2023-03-31T20:00:00",
+   "complete_case": 1168
+  },
+  {
+   "station": "CG012",
+   "rows": 1661,
+   "first": "2023-01-17T16:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 1579
+  },
+  {
+   "station": "CG013",
+   "rows": 1391,
+   "first": "2023-01-24T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 1364
+  },
+  {
+   "station": "CH001",
+   "rows": 30101,
+   "first": "2019-08-29T12:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 27221
+  },
+  {
+   "station": "CH002",
+   "rows": 13167,
+   "first": "2021-08-06T17:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 10857
+  },
+  {
+   "station": "CH003",
+   "rows": 9907,
+   "first": "2022-01-31T11:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 9113
+  },
+  {
+   "station": "DL002",
+   "rows": 64077,
+   "first": "2015-03-23T17:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 18
+  },
+  {
+   "station": "DL005",
+   "rows": 81036,
+   "first": "2011-06-06T02:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "DL013",
+   "rows": 72576,
+   "first": "2011-05-02T07:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 48922
+  },
+  {
+   "station": "DL014",
+   "rows": 71167,
+   "first": "2011-06-01T00:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 47912
+  },
+  {
+   "station": "DL015",
+   "rows": 63851,
+   "first": "2012-08-01T00:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 39285
+  },
+  {
+   "station": "DL019",
+   "rows": 44368,
+   "first": "2018-02-01T10:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 40341
+  },
+  {
+   "station": "DL020",
+   "rows": 43446,
+   "first": "2018-02-01T10:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 35977
+  },
+  {
+   "station": "DL021",
+   "rows": 42518,
+   "first": "2018-02-01T10:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 36257
+  },
+  {
+   "station": "DL022",
+   "rows": 43719,
+   "first": "2018-02-01T10:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 38832
+  },
+  {
+   "station": "DL023",
+   "rows": 43664,
+   "first": "2018-02-01T10:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 37931
+  },
+  {
+   "station": "DL024",
+   "rows": 44104,
+   "first": "2018-02-01T10:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 38922
+  },
+  {
+   "station": "DL025",
+   "rows": 44456,
+   "first": "2018-02-01T10:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 36361
+  },
+  {
+   "station": "DL026",
+   "rows": 43183,
+   "first": "2018-02-01T10:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 36383
+  },
+  {
+   "station": "DL027",
+   "rows": 44070,
+   "first": "2018-02-01T10:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 36066
+  },
+  {
+   "station": "DL029",
+   "rows": 43892,
+   "first": "2018-03-01T00:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 39551
+  },
+  {
+   "station": "DL031",
+   "rows": 42633,
+   "first": "2018-03-01T00:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 38263
+  },
+  {
+   "station": "DL033",
+   "rows": 43131,
+   "first": "2018-03-01T00:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 38153
+  },
+  {
+   "station": "DL039",
+   "rows": 12684,
+   "first": "2020-11-13T14:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "GJ001",
+   "rows": 57324,
+   "first": "2015-01-28T17:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 15146
+  },
+  {
+   "station": "GJ002",
+   "rows": 30477,
+   "first": "2019-02-04T18:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "GJ003",
+   "rows": 27122,
+   "first": "2019-02-12T14:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "GJ004",
+   "rows": 34794,
+   "first": "2019-02-04T17:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "GJ007",
+   "rows": 10522,
+   "first": "2021-06-16T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "GJ008",
+   "rows": 14861,
+   "first": "2021-06-17T16:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "GJ010",
+   "rows": 9985,
+   "first": "2021-06-04T21:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "GJ012",
+   "rows": 14818,
+   "first": "2021-06-16T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "GJ013",
+   "rows": 9325,
+   "first": "2021-06-04T22:00:00",
+   "last": "2022-07-07T14:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "GJ014",
+   "rows": 8509,
+   "first": "2021-06-30T14:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "HP001",
+   "rows": 8742,
+   "first": "2022-03-11T17:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 7307
+  },
+  {
+   "station": "HR003",
+   "rows": 53532,
+   "first": "2015-12-08T14:00:00",
+   "last": "2023-03-31T22:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "HR009",
+   "rows": 34736,
+   "first": "2019-01-10T09:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "HR011",
+   "rows": 33858,
+   "first": "2019-01-04T12:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "HR013",
+   "rows": 34178,
+   "first": "2019-01-18T10:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 12712
+  },
+  {
+   "station": "HR014",
+   "rows": 35081,
+   "first": "2019-01-08T12:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "HR016",
+   "rows": 31951,
+   "first": "2019-01-07T05:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 3
+  },
+  {
+   "station": "HR017",
+   "rows": 30992,
+   "first": "2019-01-09T10:00:00",
+   "last": "2023-03-23T15:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "HR018",
+   "rows": 31405,
+   "first": "2019-01-09T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "HR019",
+   "rows": 34649,
+   "first": "2019-01-07T18:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 12759
+  },
+  {
+   "station": "HR021",
+   "rows": 33904,
+   "first": "2019-01-10T10:00:00",
+   "last": "2023-03-29T09:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "HR022",
+   "rows": 32594,
+   "first": "2019-01-08T14:00:00",
+   "last": "2023-03-31T13:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "HR023",
+   "rows": 33796,
+   "first": "2019-02-12T16:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "HR024",
+   "rows": 33374,
+   "first": "2019-02-01T00:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "HR025",
+   "rows": 18969,
+   "first": "2020-03-03T17:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 8922
+  },
+  {
+   "station": "HR026",
+   "rows": 21296,
+   "first": "2020-03-04T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 8069
+  },
+  {
+   "station": "HR027",
+   "rows": 25249,
+   "first": "2020-03-05T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 9384
+  },
+  {
+   "station": "HR028",
+   "rows": 25731,
+   "first": "2020-03-05T16:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 8880
+  },
+  {
+   "station": "HR029",
+   "rows": 22616,
+   "first": "2020-03-03T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 10881
+  },
+  {
+   "station": "HR030",
+   "rows": 21988,
+   "first": "2020-03-04T16:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "KA002",
+   "rows": 52723,
+   "first": "2015-03-20T11:00:00",
+   "last": "2022-08-27T20:00:00",
+   "complete_case": 6007
+  },
+  {
+   "station": "KA015",
+   "rows": 28055,
+   "first": "2019-07-19T10:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "KA016",
+   "rows": 19229,
+   "first": "2019-07-19T09:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 943
+  },
+  {
+   "station": "KA038",
+   "rows": 2062,
+   "first": "2022-12-12T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 352
+  },
+  {
+   "station": "KA039",
+   "rows": 1173,
+   "first": "2023-02-01T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "KL001",
+   "rows": 42881,
+   "first": "2017-06-16T13:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 37911
+  },
+  {
+   "station": "KL003",
+   "rows": 22616,
+   "first": "2020-01-22T11:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "KL006",
+   "rows": 23287,
+   "first": "2020-02-13T16:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 18766
+  },
+  {
+   "station": "KL007",
+   "rows": 22755,
+   "first": "2020-02-17T10:00:00",
+   "last": "2023-03-31T20:00:00",
+   "complete_case": 18227
+  },
+  {
+   "station": "KL008",
+   "rows": 25080,
+   "first": "2020-02-03T13:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 19411
+  },
+  {
+   "station": "KL009",
+   "rows": 17273,
+   "first": "2020-10-12T19:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 14822
+  },
+  {
+   "station": "MH002",
+   "rows": 26108,
+   "first": "2013-03-01T00:00:00",
+   "last": "2021-12-24T12:00:00",
+   "complete_case": 0
+  },
+  {
+   "station": "MH004",
+   "rows": 57225,
+   "first": "2015-07-01T00:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 39409
+  },
+  {
+   "station": "UP002",
+   "rows": 62307,
+   "first": "2015-03-28T13:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 21008
+  },
+  {
+   "station": "UP003",
+   "rows": 69893,
+   "first": "2013-11-01T00:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 45899
+  },
+  {
+   "station": "UP004",
+   "rows": 64720,
+   "first": "2015-05-11T00:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 6754
+  },
+  {
+   "station": "UP005",
+   "rows": 65213,
+   "first": "2015-05-12T10:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 4425
+  },
+  {
+   "station": "UP037",
+   "rows": 13291,
+   "first": "2021-07-17T10:00:00",
+   "last": "2023-03-31T22:00:00",
+   "complete_case": 11211
+  },
+  {
+   "station": "UP038",
+   "rows": 13456,
+   "first": "2021-07-26T16:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 10307
+  },
+  {
+   "station": "UP039",
+   "rows": 14279,
+   "first": "2021-07-12T11:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 6195
+  },
+  {
+   "station": "UP040",
+   "rows": 14655,
+   "first": "2021-07-09T20:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 12625
+  },
+  {
+   "station": "UP041",
+   "rows": 14072,
+   "first": "2021-07-07T17:00:00",
+   "last": "2023-03-31T21:00:00",
+   "complete_case": 11862
+  },
+  {
+   "station": "UP042",
+   "rows": 8143,
+   "first": "2021-07-26T16:00:00",
+   "last": "2023-03-31T21:00:00",
+   "complete_case": 5972
+  },
+  {
+   "station": "UP043",
+   "rows": 13298,
+   "first": "2021-08-02T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 10931
+  },
+  {
+   "station": "UP044",
+   "rows": 13217,
+   "first": "2021-09-03T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 12068
+  },
+  {
+   "station": "UP045",
+   "rows": 12515,
+   "first": "2021-09-07T12:00:00",
+   "last": "2023-03-31T21:00:00",
+   "complete_case": 2330
+  },
+  {
+   "station": "UP046",
+   "rows": 11181,
+   "first": "2021-11-10T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 7125
+  },
+  {
+   "station": "UP048",
+   "rows": 10285,
+   "first": "2021-12-17T16:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 6760
+  },
+  {
+   "station": "UP049",
+   "rows": 9856,
+   "first": "2022-01-18T10:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 7300
+  },
+  {
+   "station": "UP050",
+   "rows": 7292,
+   "first": "2022-01-13T17:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 4751
+  },
+  {
+   "station": "UP051",
+   "rows": 6741,
+   "first": "2022-02-15T16:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 1644
+  },
+  {
+   "station": "UP052",
+   "rows": 8579,
+   "first": "2022-02-04T16:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 8230
+  },
+  {
+   "station": "UP053",
+   "rows": 6539,
+   "first": "2022-05-25T09:00:00",
+   "last": "2023-03-31T20:00:00",
+   "complete_case": 6349
+  },
+  {
+   "station": "UP054",
+   "rows": 6444,
+   "first": "2022-06-02T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 5297
+  },
+  {
+   "station": "UP055",
+   "rows": 6280,
+   "first": "2022-06-22T17:00:00",
+   "last": "2023-03-31T17:00:00",
+   "complete_case": 6162
+  },
+  {
+   "station": "UP056",
+   "rows": 6374,
+   "first": "2022-06-20T13:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 6286
+  },
+  {
+   "station": "UP057",
+   "rows": 4953,
+   "first": "2022-08-10T11:00:00",
+   "last": "2023-03-31T20:00:00",
+   "complete_case": 4255
+  },
+  {
+   "station": "WB002",
+   "rows": 40598,
+   "first": "2018-04-10T09:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 4380
+  },
+  {
+   "station": "WB003",
+   "rows": 40686,
+   "first": "2018-05-09T17:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 17845
+  },
+  {
+   "station": "WB004",
+   "rows": 19137,
+   "first": "2020-12-06T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 4456
+  },
+  {
+   "station": "WB005",
+   "rows": 34383,
+   "first": "2018-11-06T09:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 4258
+  },
+  {
+   "station": "WB009",
+   "rows": 29437,
+   "first": "2019-05-31T19:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 19954
+  },
+  {
+   "station": "WB010",
+   "rows": 32591,
+   "first": "2019-05-07T12:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 26217
+  },
+  {
+   "station": "WB011",
+   "rows": 32535,
+   "first": "2019-06-03T10:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 27791
+  },
+  {
+   "station": "WB012",
+   "rows": 29727,
+   "first": "2019-08-08T12:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 24186
+  },
+  {
+   "station": "WB013",
+   "rows": 29900,
+   "first": "2019-08-21T15:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 15910
+  },
+  {
+   "station": "WB014",
+   "rows": 29438,
+   "first": "2019-08-30T10:00:00",
+   "last": "2023-03-31T23:00:00",
+   "complete_case": 24463
+  }
+ ],
+ "files": [
+  {
+   "file_name": "AP001.csv",
+   "sha256": "1d23d6ac63c9c4507ed6ccc2cf579995dbcd7be53e12fd70c7f22f2657aabd59",
+   "station": "AP001",
+   "rows_kept": 54322,
+   "structural_absence": [],
+   "mapping_log": [],
+   "duplicates_dropped": 0,
+   "unique_contributed": 54322
+  },
+  {
+   "file_name": "AP002.csv",
+   "sha256": "a84eee74f1621c2714fc26e0dce1409242a3292f3c115e91c2715cd3cf07dcec",
+   "station": "AP002",
+   "rows_kept": 14192,
+   "structural_absence": [],
+   "mapping_log": [],
+   "duplicates_dropped": 0,
+   "unique_contributed": 14192
+  },
+  {
+   "file_name": "AP003.csv",
+   "sha256": "2d4f8dec42f9ba0ae6c38a75307bcb154376225ca209f4d92ada6b3f2c7f4266",
+   "station": "AP003",
+   "rows_kept": 44691,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 44691
+  },
+  {
+   "file_name": "AP004.csv",
+   "sha256": "e00e3a109aaaf01630fcc98ad31ddc682262adc6a8939b292867cdd08bc64b70",
+   "station": "AP004",
+   "rows_kept": 46344,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 46344
+  },
+  {
+   "file_name": "AP005.csv",
+   "sha256": "9705f560e41b190f8fb242d8795c7d912ffc146c5c941a8116a50a046a0f7054",
+   "station": "AP005",
+   "rows_kept": 42362,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 42362
+  },
+  {
+   "file_name": "AP006.csv",
+   "sha256": "1dd7036cbda54c11773b68362653078bffe77819143ced34c28bdcfbceb16961",
+   "station": "AP006",
+   "rows_kept": 5179,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 5179
+  },
+  {
+   "file_name": "AP007.csv",
+   "sha256": "abbabf7ef74d4cc0d6f0f529e59cab9aaa01111a554fb8edae5c3a5e654d1523",
+   "station": "AP007",
+   "rows_kept": 2717,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 2717
+  },
+  {
+   "file_name": "AP008.csv",
+   "sha256": "a70cd367338b79af1bd5e38c77cf582233e311f9716e9b6ea77fc74c62565171",
+   "station": "AP008",
+   "rows_kept": 2979,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 2979
+  },
+  {
+   "file_name": "AP009.csv",
+   "sha256": "c0cbca3fbc606f0e1d272f5f537cf4985457bf278e8305e299b07f52b8bf3d42",
+   "station": "AP009",
+   "rows_kept": 1244,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 1244
+  },
+  {
+   "file_name": "AP010.csv",
+   "sha256": "016510d1ba1750a8c7315382665818b717a86a5b61952d7f3f4a6e926cf1a840",
+   "station": "AP010",
+   "rows_kept": 1348,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 1348
+  },
+  {
+   "file_name": "AR001.csv",
+   "sha256": "a9900eee6bed62273e6329327fe629cb309a9248dc113b034df116e49dab125c",
+   "station": "AR001",
+   "rows_kept": 7581,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 7581
+  },
+  {
+   "file_name": "AS001.csv",
+   "sha256": "3fcddfa71b328fe03d55628455fd995a4845d4ea3f34e83571d8101000e000f6",
+   "station": "AS001",
+   "rows_kept": 33733,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 33733
+  },
+  {
+   "file_name": "AS002.csv",
+   "sha256": "8dd39aba7a1335f266b64317888cd65cca384c1587f1fef1710876b1646f26e8",
+   "station": "AS002",
+   "rows_kept": 17837,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 17837
+  },
+  {
+   "file_name": "AS003.csv",
+   "sha256": "858d519a5c46c1f2d28ce095f83f603818aabd39a04e14004fb74e5cf2cf356e",
+   "station": "AS003",
+   "rows_kept": 3724,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 3724
+  },
+  {
+   "file_name": "AS004.csv",
+   "sha256": "1500cf79adbd682c1f71a76089e95724c3495803f4d746c8b597c1fb756e64e0",
+   "station": "AS004",
+   "rows_kept": 3901,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 3901
+  },
+  {
+   "file_name": "AS005.csv",
+   "sha256": "13049fd96885b6fb0170c9a215631c38a5fc1a97b0854b12eecc40db1a840692",
+   "station": "AS005",
+   "rows_kept": 2883,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 2883
+  },
+  {
+   "file_name": "AS006.csv",
+   "sha256": "1175414001c9fb9d4f9e1f97cb106bbb494554822c9e799b6647717d2dcbc3fd",
+   "station": "AS006",
+   "rows_kept": 2420,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 2420
+  },
+  {
+   "file_name": "AS007.csv",
+   "sha256": "a03a96a3870cc2ad1d04b53fc2ab7b200190dae738465c5cde20abd4e629efe5",
+   "station": "AS007",
+   "rows_kept": 2139,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 2139
+  },
+  {
+   "file_name": "AS008.csv",
+   "sha256": "9d542832b5a51a4ad914dbe565f1293424b19ade73ba97b59bae38126fd43c12",
+   "station": "AS008",
+   "rows_kept": 1747,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 1747
+  },
+  {
+   "file_name": "AS009.csv",
+   "sha256": "14225c4d3cd85ffa676e41aef92e231a0506289e8821611bd487175e9493c807",
+   "station": "AS009",
+   "rows_kept": 728,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 728
+  },
+  {
+   "file_name": "BR021.csv",
+   "sha256": "3ae771f11ccbf6e87b86eb6949652ccbb73c3e219dd6e57ac62184d2122a9367",
+   "station": "BR021",
+   "rows_kept": 10694,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 10694
+  },
+  {
+   "file_name": "BR022.csv",
+   "sha256": "65f4d2ff6a5e353a491bcf9aee507ec248ed6bff40fe80ff453b4fe649161a6d",
+   "station": "BR022",
+   "rows_kept": 7790,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 7790
+  },
+  {
+   "file_name": "BR023.csv",
+   "sha256": "f8b3a822a00a2bcd9088cdaa651e15316d1612a3f95ba9a59a58b2751d14b563",
+   "station": "BR023",
+   "rows_kept": 11056,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 11056
+  },
+  {
+   "file_name": "BR025.csv",
+   "sha256": "7c7190a5da1b48f7ea52e8fc9afbc03ceccddd38e0252e299fa173df8b14eea6",
+   "station": "BR025",
+   "rows_kept": 10081,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 10081
+  },
+  {
+   "file_name": "BR026.csv",
+   "sha256": "520b5dc923b223ac7d5ef61738b62261b5facf22d988f73c7d43988176c79436",
+   "station": "BR026",
+   "rows_kept": 11010,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 11010
+  },
+  {
+   "file_name": "BR027.csv",
+   "sha256": "37149e2d1d61bc5d17ba29db3135f536e25c74c79e610464b188cee86796abb6",
+   "station": "BR027",
+   "rows_kept": 6952,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 6952
+  },
+  {
+   "file_name": "BR028.csv",
+   "sha256": "d4b54b10edc44f1897b799ab6a62df20f3c6ec217444e214d76f58872a9ca33f",
+   "station": "BR028",
+   "rows_kept": 8946,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 8946
+  },
+  {
+   "file_name": "BR029.csv",
+   "sha256": "0477fedd2a9a54b2671f96ed1d1eca97da1978b1f65d7e63bc9c63f5df6873da",
+   "station": "BR029",
+   "rows_kept": 10458,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 10458
+  },
+  {
+   "file_name": "BR031.csv",
+   "sha256": "0efa3103ea6187bd6efa3cd56c5f7e6505651ba264b582c92c1662e82a21d654",
+   "station": "BR031",
+   "rows_kept": 9377,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 9377
+  },
+  {
+   "file_name": "BR032.csv",
+   "sha256": "62cd102a67d1b8f1532ba9bb08969ba8e361182c862e776e14cd26ec32dad6e5",
+   "station": "BR032",
+   "rows_kept": 10158,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 10158
+  },
+  {
+   "file_name": "BR033.csv",
+   "sha256": "20745c21713108751d17ac8a102c06f0ca2fd2cb21c6a700c77c2cf33abc3194",
+   "station": "BR033",
+   "rows_kept": 10164,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 10164
+  },
+  {
+   "file_name": "BR034.csv",
+   "sha256": "6e782ce4e98bcb23e5b3da926e6352cd8adf6f7177b02ddfe7e66ee99b366b29",
+   "station": "BR034",
+   "rows_kept": 7063,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 7063
+  },
+  {
+   "file_name": "BR035.csv",
+   "sha256": "3f1b972c34f94f96fa3b62a15a86a91b4d1c2523b988144db657e46197a4cd96",
+   "station": "BR035",
+   "rows_kept": 5652,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 5652
+  },
+  {
+   "file_name": "CG004.csv",
+   "sha256": "7accba8b154f39b0f76fec46788dc8fd86653fb75fb8f96be0bfe5aaad3ddd23",
+   "station": "CG004",
+   "rows_kept": 1991,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 1991
+  },
+  {
+   "file_name": "CG005.csv",
+   "sha256": "f25155061eb915f2eeb0b8934e5ae0a7d1c3d6502c08cd5e169a5702c90245bc",
+   "station": "CG005",
+   "rows_kept": 2191,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 2191
+  },
+  {
+   "file_name": "CG006.csv",
+   "sha256": "0e718e10184728567190b52679d99b2395a5cecdd9325db5f010fe1ae2197ef3",
+   "station": "CG006",
+   "rows_kept": 2217,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 2217
+  },
+  {
+   "file_name": "CG007.csv",
+   "sha256": "d3f9528d420908184e4cbb855b30a30ba6c2439b9064892f6581978ace135b87",
+   "station": "CG007",
+   "rows_kept": 2179,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 2179
+  },
+  {
+   "file_name": "CG008.csv",
+   "sha256": "51bd741077552b2f938a95689985934997fb9d7f9ac383f248ce0f85c3aecbb6",
+   "station": "CG008",
+   "rows_kept": 1713,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 1713
+  },
+  {
+   "file_name": "CG009.csv",
+   "sha256": "2c72263caa9315c4d36ba39a8936fecec8a2a547ec4cb96db1f572bd2edd48d3",
+   "station": "CG009",
+   "rows_kept": 1888,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 1888
+  },
+  {
+   "file_name": "CG010.csv",
+   "sha256": "379f9772939ac2c03b2834866f65c4d4942aaa05cc9e04b3e23465f5afacb5e1",
+   "station": "CG010",
+   "rows_kept": 2119,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 2119
+  },
+  {
+   "file_name": "CG011.csv",
+   "sha256": "82670ef87b1e7aa5b19b24a8ff0ca18c700eeeaaa53f5db96de8a34e16cadc58",
+   "station": "CG011",
+   "rows_kept": 1388,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 1388
+  },
+  {
+   "file_name": "CG012.csv",
+   "sha256": "2d7b8ee79d5d45c745765bb13f8f3ef0d4011d865edc2666ea217a081f22b5c0",
+   "station": "CG012",
+   "rows_kept": 1661,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 1661
+  },
+  {
+   "file_name": "CG013.csv",
+   "sha256": "8b9f64575a6ab6c3604aa314a3381365795c5e3e8d4757a0bc83e7dfec1b5395",
+   "station": "CG013",
+   "rows_kept": 1391,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 1391
+  },
+  {
+   "file_name": "CH001.csv",
+   "sha256": "598a23f2ffaf4ec906ef4fa58dc0aa9c5f93aecf4b08c34332f295ad8036bda2",
+   "station": "CH001",
+   "rows_kept": 30101,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 30101
+  },
+  {
+   "file_name": "CH002.csv",
+   "sha256": "9fbda1ff1c8762a4a741de79ce5a05e8d572fcd0089168e0b8d99d62adeeeaa2",
+   "station": "CH002",
+   "rows_kept": 13167,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 13167
+  },
+  {
+   "file_name": "CH003.csv",
+   "sha256": "e1a5fdf229dce66ea0792f823d6b05768d6b18993bf17e1bfc2bfc73f7a38dea",
+   "station": "CH003",
+   "rows_kept": 9907,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 9907
+  },
+  {
+   "file_name": "DL002.csv",
+   "sha256": "7575343f484f6716696400959a455531551623fd66548f33a869ed578e959e3d",
+   "station": "DL002",
+   "rows_kept": 64077,
+   "structural_absence": [],
+   "mapping_log": [],
+   "duplicates_dropped": 0,
+   "unique_contributed": 64077
+  },
+  {
+   "file_name": "DL005.csv",
+   "sha256": "8c07023947b69042957c2798cce5fa0e543dafc5c7528b7105a4bbb6c6eb77aa",
+   "station": "DL005",
+   "rows_kept": 81036,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 81036
+  },
+  {
+   "file_name": "DL013.csv",
+   "sha256": "8b5485567caa7aede417169f725efc81738af525eb5ca943fe5e69cad6f0f777",
+   "station": "DL013",
+   "rows_kept": 72576,
+   "structural_absence": [],
+   "mapping_log": [],
+   "duplicates_dropped": 0,
+   "unique_contributed": 72576
+  },
+  {
+   "file_name": "DL014.csv",
+   "sha256": "a079fc9d6116bab6c610aef52c715fc46c1901ef87b066a27911bfa9d616f873",
+   "station": "DL014",
+   "rows_kept": 71167,
+   "structural_absence": [],
+   "mapping_log": [],
+   "duplicates_dropped": 0,
+   "unique_contributed": 71167
+  },
+  {
+   "file_name": "DL015.csv",
+   "sha256": "0fb4d86ee61274bc327e4a61ddedfd8013fcf9888e4c261e823c6f94ba83e0de",
+   "station": "DL015",
+   "rows_kept": 63851,
+   "structural_absence": [],
+   "mapping_log": [],
+   "duplicates_dropped": 0,
+   "unique_contributed": 63851
+  },
+  {
+   "file_name": "DL019.csv",
+   "sha256": "11c09b753312688af4aa89039c3a51a2173d00cb72a2ad687716b0c6137fced7",
+   "station": "DL019",
+   "rows_kept": 44368,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 44368
+  },
+  {
+   "file_name": "DL020.csv",
+   "sha256": "fa0ede1d4e9f3ed09ff964c25531468cc23b71164f91d3a16ea573e615977f0f",
+   "station": "DL020",
+   "rows_kept": 43446,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "CO",
+     "raw": "CO (ug/m3)",
+     "action": "unit_conversion",
+     "factor": 0.001,
+     "rationale": "1 ug = 0.001 mg"
+    },
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 43446
+  },
+  {
+   "file_name": "DL021.csv",
+   "sha256": "a3037f82faa563dcd2ceed40b0519bb0c5d3c876dff540b8bcb6f4311c0de216",
+   "station": "DL021",
+   "rows_kept": 42518,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 42518
+  },
+  {
+   "file_name": "DL022.csv",
+   "sha256": "7e40b20195f6291c051a09346242f6b33715195866d916db1e7bcf10765c1c2f",
+   "station": "DL022",
+   "rows_kept": 43719,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 43719
+  },
+  {
+   "file_name": "DL023.csv",
+   "sha256": "baafefd4b52344c7ed7df5f681790cfd3f908ba8110b1a8571d1c9dfa511b6ae",
+   "station": "DL023",
+   "rows_kept": 43664,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "CO",
+     "raw": "CO (ug/m3)",
+     "action": "unit_conversion",
+     "factor": 0.001,
+     "rationale": "1 ug = 0.001 mg"
+    },
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 43664
+  },
+  {
+   "file_name": "DL024.csv",
+   "sha256": "792fd78689d37d1e5da953fd066f26a41f80f18caecc53c25fffaa41bee2e8f4",
+   "station": "DL024",
+   "rows_kept": 44104,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 44104
+  },
+  {
+   "file_name": "DL025.csv",
+   "sha256": "5cf91613d0fa21785e9563321404d3e1de8c0f82728d64109712e073e412f295",
+   "station": "DL025",
+   "rows_kept": 44456,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 44456
+  },
+  {
+   "file_name": "DL026.csv",
+   "sha256": "06dc178bf843dcf29699342fcc2c184b748c7fcbe92abcc1c38a5045a70ce656",
+   "station": "DL026",
+   "rows_kept": 43183,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 43183
+  },
+  {
+   "file_name": "DL027.csv",
+   "sha256": "463216e06951eeba1e5e52f9bd8100fc94350c773b32dff55782f6196415b533",
+   "station": "DL027",
+   "rows_kept": 44070,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "CO",
+     "raw": "CO (ng/m3)",
+     "action": "unit_conversion",
+     "factor": 1e-06,
+     "rationale": "1 ng = 1e-6 mg"
+    },
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 44070
+  },
+  {
+   "file_name": "DL029.csv",
+   "sha256": "cc1f2b7b9effd732a351adcb900897ba11350e3d13e104801cb695baba6d39fd",
+   "station": "DL029",
+   "rows_kept": 43892,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 43892
+  },
+  {
+   "file_name": "DL031.csv",
+   "sha256": "5cb8607c4f898820e51f6b7ed12c4a11c583e8708fd0979f445146b456c1f532",
+   "station": "DL031",
+   "rows_kept": 42633,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 42633
+  },
+  {
+   "file_name": "DL033.csv",
+   "sha256": "5ed3bf62f46950c6c13464060e3452a160c33e4858453dc968a46d5a2c5260a5",
+   "station": "DL033",
+   "rows_kept": 43131,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 43131
+  },
+  {
+   "file_name": "DL039.csv",
+   "sha256": "fe51eda0b1d5416d73b77adbb425dc504b14861d576d35a0d72065909c0e5942",
+   "station": "DL039",
+   "rows_kept": 12684,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 12684
+  },
+  {
+   "file_name": "GJ001.csv",
+   "sha256": "56225e29139d30da6e83c889473d1c76299337cdf22b53557b58f06d3c9097d6",
+   "station": "GJ001",
+   "rows_kept": 57324,
+   "structural_absence": [],
+   "mapping_log": [],
+   "duplicates_dropped": 0,
+   "unique_contributed": 57324
+  },
+  {
+   "file_name": "GJ002.csv",
+   "sha256": "382c1503a841577d22d1101d4558ecd7a07e5f643269e8d817250a0d41b2b4f6",
+   "station": "GJ002",
+   "rows_kept": 30477,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 30477
+  },
+  {
+   "file_name": "GJ003.csv",
+   "sha256": "c889c5046f2c00e48137c9b5931ab81d770a061e09d997698a00e058df049f22",
+   "station": "GJ003",
+   "rows_kept": 27122,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 27122
+  },
+  {
+   "file_name": "GJ004.csv",
+   "sha256": "b523d560c466ee6dc8e9f8522e46bb64cc149f31e0e3f3b96afe73708bf31d92",
+   "station": "GJ004",
+   "rows_kept": 34794,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 34794
+  },
+  {
+   "file_name": "GJ007.csv",
+   "sha256": "82cb7060f24f3fee58c0207a8b97c1a1e53d388ee55bee1e810514c52ca2ded4",
+   "station": "GJ007",
+   "rows_kept": 10522,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 10522
+  },
+  {
+   "file_name": "GJ008.csv",
+   "sha256": "447dc7aabe656502f9a5a8ee8c3fbe55fdd1f1f177e6066522293b57bb93d81a",
+   "station": "GJ008",
+   "rows_kept": 14861,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 14861
+  },
+  {
+   "file_name": "GJ010.csv",
+   "sha256": "374979bdf4da3e1d907c6a9098a65762d75f55ccd39d317226f2cf7521ab5cea",
+   "station": "GJ010",
+   "rows_kept": 9985,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 9985
+  },
+  {
+   "file_name": "GJ012.csv",
+   "sha256": "9e47cc84acbb2a1d70cbd5d614ba900ceabf5db07c46cd1398f3b4913d8f7c16",
+   "station": "GJ012",
+   "rows_kept": 14818,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 14818
+  },
+  {
+   "file_name": "GJ013.csv",
+   "sha256": "ff493ef91f210e214d70267e46694ccbfe3f3fba0b65aa51e8d3b0e36dafe647",
+   "station": "GJ013",
+   "rows_kept": 9325,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 9325
+  },
+  {
+   "file_name": "GJ014.csv",
+   "sha256": "5e57ff4acfbc227469478d9c8ebd35eb3fedb4d86e3b4e8ad70d21abfff5e8a5",
+   "station": "GJ014",
+   "rows_kept": 8509,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 8509
+  },
+  {
+   "file_name": "HP001.csv",
+   "sha256": "51e8e3fc611b2e80b6754d7e44f82bc8c01aaeea3eb0c83f3689bb8b31385d74",
+   "station": "HP001",
+   "rows_kept": 8742,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 8742
+  },
+  {
+   "file_name": "HR003.csv",
+   "sha256": "78076f3495c1851cd8a3bd58569992f1839b9fe4a6c36fbe1ef5870cbf645ac8",
+   "station": "HR003",
+   "rows_kept": 53532,
+   "structural_absence": [],
+   "mapping_log": [],
+   "duplicates_dropped": 0,
+   "unique_contributed": 53532
+  },
+  {
+   "file_name": "HR009.csv",
+   "sha256": "7ea1e63cc0eb89b805a2b10dffc5e923384d61448ea67c23e6b4810e3ab36eac",
+   "station": "HR009",
+   "rows_kept": 34736,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 34736
+  },
+  {
+   "file_name": "HR011.csv",
+   "sha256": "04a7e1690d11b42c812ec7fd9cdfe2446f490d38eb7f7aad950632b9eb4d6e40",
+   "station": "HR011",
+   "rows_kept": 33858,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 33858
+  },
+  {
+   "file_name": "HR013.csv",
+   "sha256": "1a4745f13dd4ffd8cf03324185120510c4f2cff86cb377cfee86cd954bde3a2f",
+   "station": "HR013",
+   "rows_kept": 34178,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 34178
+  },
+  {
+   "file_name": "HR014.csv",
+   "sha256": "36d0c33ba098f7a520e394787bdf7bbd1963106ea5cdd336c1e4062ff15e3da5",
+   "station": "HR014",
+   "rows_kept": 35081,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 35081
+  },
+  {
+   "file_name": "HR016.csv",
+   "sha256": "40b6dd8c7a391b66f937fd45caa6a83e7cb7de8abe460e3aa71361915e97c724",
+   "station": "HR016",
+   "rows_kept": 31951,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 31951
+  },
+  {
+   "file_name": "HR017.csv",
+   "sha256": "d68479f2fca593d55a620da3019f046c8870bd570998ec6873f802ec0ca33457",
+   "station": "HR017",
+   "rows_kept": 30992,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 30992
+  },
+  {
+   "file_name": "HR018.csv",
+   "sha256": "4f53f23cd47b25bb373ecdb5a2e8e0b199a31a2c959145a1b229282dfe6ae7f6",
+   "station": "HR018",
+   "rows_kept": 31405,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 31405
+  },
+  {
+   "file_name": "HR019.csv",
+   "sha256": "d78ada9fff58e71287b3d7a60a460104f03825b9f333f1d111cd0b156b833bc5",
+   "station": "HR019",
+   "rows_kept": 34649,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 34649
+  },
+  {
+   "file_name": "HR021.csv",
+   "sha256": "507965c57c63b33d77efd9369cce72df2de8fdb1a1fca00fb1679390381d0036",
+   "station": "HR021",
+   "rows_kept": 33904,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 33904
+  },
+  {
+   "file_name": "HR022.csv",
+   "sha256": "6c79fcdb25dc52b1a8d9f042e01ead1aae6bd081e5464dc53e1e3b903d809f5a",
+   "station": "HR022",
+   "rows_kept": 32594,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "CO",
+     "raw": "CO (ug/m3)",
+     "action": "unit_conversion",
+     "factor": 0.001,
+     "rationale": "1 ug = 0.001 mg"
+    },
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 32594
+  },
+  {
+   "file_name": "HR023.csv",
+   "sha256": "661650fc0f4332592c5efe0b0da5468dcdf57778fcf24ca248c9c0bcb037d110",
+   "station": "HR023",
+   "rows_kept": 33796,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 33796
+  },
+  {
+   "file_name": "HR024.csv",
+   "sha256": "8ef4f0deb831c79cf1bd751bea1c2f72e1acd74da2dcc5a2fa9aa9c0dfc86abb",
+   "station": "HR024",
+   "rows_kept": 33374,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 33374
+  },
+  {
+   "file_name": "HR025.csv",
+   "sha256": "f2fef20df5afe6b6a4b2f04eb3e1140e9a0e131280c0fa62ae9d8933b274df8f",
+   "station": "HR025",
+   "rows_kept": 18969,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 18969
+  },
+  {
+   "file_name": "HR026.csv",
+   "sha256": "037bf003ba567ef154d47b0a66906896c44b57d0c9b051bf442ec44f2c5f25e9",
+   "station": "HR026",
+   "rows_kept": 21296,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 21296
+  },
+  {
+   "file_name": "HR027.csv",
+   "sha256": "4b4493683ed18a72802f06c8595db13f42d77ba78d11f0682fd79a634f84f81b",
+   "station": "HR027",
+   "rows_kept": 25249,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 25249
+  },
+  {
+   "file_name": "HR028.csv",
+   "sha256": "756420b166cff68aaa0d9284cc11cc126a153355a2d4ed622e71e741f899846e",
+   "station": "HR028",
+   "rows_kept": 25731,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 25731
+  },
+  {
+   "file_name": "HR029.csv",
+   "sha256": "5b48644bde7aba4fc1bfcad820638b7bfe174cafc833ca6008beb3ad9b82fe69",
+   "station": "HR029",
+   "rows_kept": 22616,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 22616
+  },
+  {
+   "file_name": "HR030.csv",
+   "sha256": "186eed8eb0404566da76cbcd2948a386a5371d16ff85bd09c4fcbf9072fc7ea3",
+   "station": "HR030",
+   "rows_kept": 21988,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 21988
+  },
+  {
+   "file_name": "KA002.csv",
+   "sha256": "e7b9295d94101ca9568b3f95308c6dcc72e3394231d301a19282479bbc54b484",
+   "station": "KA002",
+   "rows_kept": 52723,
+   "structural_absence": [],
+   "mapping_log": [],
+   "duplicates_dropped": 0,
+   "unique_contributed": 52723
+  },
+  {
+   "file_name": "KA015.csv",
+   "sha256": "eb5c16f033d21239b3c3a261f5d3c35556a3cbf41b44133b3823fdf17022eb4a",
+   "station": "KA015",
+   "rows_kept": 28055,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 28055
+  },
+  {
+   "file_name": "KA016.csv",
+   "sha256": "90c2bb523a2606f84763dd32d63fc9ca4248ad28b5a588074805b9d02d7386b8",
+   "station": "KA016",
+   "rows_kept": 19229,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 19229
+  },
+  {
+   "file_name": "KA038.csv",
+   "sha256": "dadfc841602eb808b9e64f7c54b30de566d2c2577f4e9e2e077e37b8da7383e0",
+   "station": "KA038",
+   "rows_kept": 2062,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 2062
+  },
+  {
+   "file_name": "KA039.csv",
+   "sha256": "4ef1bb4b21cf981a16c01c2bbf724bb86895a3d842882379d4f46112649b195a",
+   "station": "KA039",
+   "rows_kept": 1173,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 1173
+  },
+  {
+   "file_name": "KL001.csv",
+   "sha256": "c55c1135cacc6cdd0b17abe9799773076d92d79dab7fea741547a5030f68d624",
+   "station": "KL001",
+   "rows_kept": 42881,
+   "structural_absence": [],
+   "mapping_log": [],
+   "duplicates_dropped": 0,
+   "unique_contributed": 42881
+  },
+  {
+   "file_name": "KL003.csv",
+   "sha256": "58766f3e8b46fd9511d7dd60a55e8ab6ff9f99c33162043239dc0267498bce1d",
+   "station": "KL003",
+   "rows_kept": 22616,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 22616
+  },
+  {
+   "file_name": "KL006.csv",
+   "sha256": "d84c46acd3f303e35bfc370321414e32ca3d53c9081a07cdb243530464001d88",
+   "station": "KL006",
+   "rows_kept": 23287,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 23287
+  },
+  {
+   "file_name": "KL007.csv",
+   "sha256": "ef63ff6b67416d362e6dc5ab5a13983d5bb1172550f6e11bb74191169c2e46ff",
+   "station": "KL007",
+   "rows_kept": 22755,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 22755
+  },
+  {
+   "file_name": "KL008.csv",
+   "sha256": "efa998347bd8748e9cfcb66c5081cbec30e5468d2ba46ee2e9c68ffe296d4bb4",
+   "station": "KL008",
+   "rows_kept": 25080,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 25080
+  },
+  {
+   "file_name": "KL009.csv",
+   "sha256": "4de9f1b8a3ad2dcc20559e70ebc4ceafa75d974796233f13b3eadd5908149f45",
+   "station": "KL009",
+   "rows_kept": 17273,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 17273
+  },
+  {
+   "file_name": "MH002.csv",
+   "sha256": "437eae0c49e3abe58fbdfca2723d5aacc29ced24178ec8fb9624de79ce24050e",
+   "station": "MH002",
+   "rows_kept": 26108,
+   "structural_absence": [],
+   "mapping_log": [],
+   "duplicates_dropped": 0,
+   "unique_contributed": 26108
+  },
+  {
+   "file_name": "MH004.csv",
+   "sha256": "27d8a7bf44e6cd2886e3bc0802eda0fac348324ffacd208980a9985894b74d98",
+   "station": "MH004",
+   "rows_kept": 57225,
+   "structural_absence": [],
+   "mapping_log": [],
+   "duplicates_dropped": 0,
+   "unique_contributed": 57225
+  },
+  {
+   "file_name": "UP002.csv",
+   "sha256": "142044636eff95db7196ff912dc5233ec9de7f4e78c440957e35c60587e41d8d",
+   "station": "UP002",
+   "rows_kept": 62307,
+   "structural_absence": [],
+   "mapping_log": [],
+   "duplicates_dropped": 0,
+   "unique_contributed": 62307
+  },
+  {
+   "file_name": "UP003.csv",
+   "sha256": "84da0c6b0dbc76e6fad06d64434a684886663c86df62af207981e71f5465cbeb",
+   "station": "UP003",
+   "rows_kept": 69893,
+   "structural_absence": [],
+   "mapping_log": [],
+   "duplicates_dropped": 0,
+   "unique_contributed": 69893
+  },
+  {
+   "file_name": "UP004.csv",
+   "sha256": "586ca318d35326c2921167fbc378926591d6bffb635f3ffb984b12ae180cd54f",
+   "station": "UP004",
+   "rows_kept": 64720,
+   "structural_absence": [],
+   "mapping_log": [],
+   "duplicates_dropped": 0,
+   "unique_contributed": 64720
+  },
+  {
+   "file_name": "UP005.csv",
+   "sha256": "2843f3e84ce9494673bec19e1636883d20feb76255791d24ba9d813178f5cfb7",
+   "station": "UP005",
+   "rows_kept": 65213,
+   "structural_absence": [],
+   "mapping_log": [],
+   "duplicates_dropped": 0,
+   "unique_contributed": 65213
+  },
+  {
+   "file_name": "UP037.csv",
+   "sha256": "8dcb7e442d81c4a98f504eba9950a027d8b2889fcba60260f56fe944c93327be",
+   "station": "UP037",
+   "rows_kept": 13291,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 13291
+  },
+  {
+   "file_name": "UP038.csv",
+   "sha256": "faebfe2d4e53c6617e71d3ff85c8f0b607826a77c972151decbb460ad7ec3aa4",
+   "station": "UP038",
+   "rows_kept": 13456,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 13456
+  },
+  {
+   "file_name": "UP039.csv",
+   "sha256": "2ccfe5e9b2cce9f1860651bdef6881b435c0f23a9e236eb1cf5473b8e638b739",
+   "station": "UP039",
+   "rows_kept": 14279,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 14279
+  },
+  {
+   "file_name": "UP040.csv",
+   "sha256": "50516a4edd01a09bdb626ffee44b4e362ddf1a725ee6363e360ff36b2205c948",
+   "station": "UP040",
+   "rows_kept": 14655,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 14655
+  },
+  {
+   "file_name": "UP041.csv",
+   "sha256": "1ffd519eb13f66350ea1df99ef7846cf63de077eb373e26cee96deb7b8ad4a8b",
+   "station": "UP041",
+   "rows_kept": 14072,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 14072
+  },
+  {
+   "file_name": "UP042.csv",
+   "sha256": "1a772d738120639caf8639440849c26219778a577b6b43086bc6bb35cc452cb5",
+   "station": "UP042",
+   "rows_kept": 8143,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 8143
+  },
+  {
+   "file_name": "UP043.csv",
+   "sha256": "a1e1c042f1520bf8902ba04916f51152a50020ca4a5dcaff6ff588fba8184be5",
+   "station": "UP043",
+   "rows_kept": 13298,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 13298
+  },
+  {
+   "file_name": "UP044.csv",
+   "sha256": "6fb54382a6b699eb875879e0286b706cc54e4b53f1e9476b14819ae114639b93",
+   "station": "UP044",
+   "rows_kept": 13217,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 13217
+  },
+  {
+   "file_name": "UP045.csv",
+   "sha256": "f5f51007507efaa9be21232050a7e65f5ef67cca4c75428aa0f738812e216df4",
+   "station": "UP045",
+   "rows_kept": 12515,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 12515
+  },
+  {
+   "file_name": "UP046.csv",
+   "sha256": "7974c1e3c3439276df56bf483f2bb37ad3073e92976f245cf409864f5224c949",
+   "station": "UP046",
+   "rows_kept": 11181,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 11181
+  },
+  {
+   "file_name": "UP048.csv",
+   "sha256": "c12718a0d38c5dadea1675e877fafa24a3cdd5ce6db81fda76d703c03c974d26",
+   "station": "UP048",
+   "rows_kept": 10285,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 10285
+  },
+  {
+   "file_name": "UP049.csv",
+   "sha256": "a77b962cd1d41d9629d8552faaea83b9a44dd339c3b1893fab47e10c582601ad",
+   "station": "UP049",
+   "rows_kept": 9856,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 9856
+  },
+  {
+   "file_name": "UP050.csv",
+   "sha256": "71cd9412c442d6b8bbfe2f4e84722f2d5cbf6e7a2bac1026a35964240c90ee45",
+   "station": "UP050",
+   "rows_kept": 7292,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 7292
+  },
+  {
+   "file_name": "UP051.csv",
+   "sha256": "86052ca9771c0866d4e2185146fb5b0acec8d8fd8e099dfef77496001fb16e92",
+   "station": "UP051",
+   "rows_kept": 6741,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 6741
+  },
+  {
+   "file_name": "UP052.csv",
+   "sha256": "e9b0f2d7111bc40bfea97e45c1b97f72aad8af374562556a6d67c889e0515edc",
+   "station": "UP052",
+   "rows_kept": 8579,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 8579
+  },
+  {
+   "file_name": "UP053.csv",
+   "sha256": "69e9b4a8f0c024862adf51fa73489db8276583d35b1c428a08dbff30924ecaba",
+   "station": "UP053",
+   "rows_kept": 6539,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 6539
+  },
+  {
+   "file_name": "UP054.csv",
+   "sha256": "41b8fef90e186c4f6dea6889401f65fd727c28127d5197ca0ce5196bd7cf66b5",
+   "station": "UP054",
+   "rows_kept": 6444,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 6444
+  },
+  {
+   "file_name": "UP055.csv",
+   "sha256": "15480afe8c6fa2cce519d7cc5ce74336d960010ce86b789993044a1190af393e",
+   "station": "UP055",
+   "rows_kept": 6280,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 6280
+  },
+  {
+   "file_name": "UP056.csv",
+   "sha256": "3e3105aeb7f4c0ccabf6fa0788b20ed01d55a914437c0e8650a834821e600c6b",
+   "station": "UP056",
+   "rows_kept": 6374,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 6374
+  },
+  {
+   "file_name": "UP057.csv",
+   "sha256": "83d1c5c94d7d2489c660e14f422abafae7b162c789a5dc51d5b6dfcd10816451",
+   "station": "UP057",
+   "rows_kept": 4953,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 4953
+  },
+  {
+   "file_name": "WB002.csv",
+   "sha256": "d4e6add6ed11d568fee530ba11612847c77adbfe276c23a7081e92c9a70b3144",
+   "station": "WB002",
+   "rows_kept": 40598,
+   "structural_absence": [],
+   "mapping_log": [],
+   "duplicates_dropped": 0,
+   "unique_contributed": 40598
+  },
+  {
+   "file_name": "WB003.csv",
+   "sha256": "1a53da1e5c4df6fb62933d6cee8578d8fd2a5356beb870ebf685141a78659255",
+   "station": "WB003",
+   "rows_kept": 40686,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 40686
+  },
+  {
+   "file_name": "WB004.csv",
+   "sha256": "f731079d965a371ef5cdb71f6e0e466f65b88f7444a62ee1c6d02324addf5509",
+   "station": "WB004",
+   "rows_kept": 19137,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 19137
+  },
+  {
+   "file_name": "WB005.csv",
+   "sha256": "1fc634fc861516ec09afc418770a318abcc8d930a9ce2caa5706bb5072a1a87a",
+   "station": "WB005",
+   "rows_kept": 34383,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 34383
+  },
+  {
+   "file_name": "WB009.csv",
+   "sha256": "5a0ab0ec34c60de6b08c56d76423c568ca8c0cdb1fc2dceed4592e468ec20be4",
+   "station": "WB009",
+   "rows_kept": 29437,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 29437
+  },
+  {
+   "file_name": "WB010.csv",
+   "sha256": "bf0e422295fd53a550fcc07fb82f30ab10ce0bd59ba84ac5831c6cb49d549465",
+   "station": "WB010",
+   "rows_kept": 32591,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 32591
+  },
+  {
+   "file_name": "WB011.csv",
+   "sha256": "73d9fb108306da6cab4d569da4e95e8858855f1b85a4a1c0a8e87349b5f6f671",
+   "station": "WB011",
+   "rows_kept": 32535,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 32535
+  },
+  {
+   "file_name": "WB012.csv",
+   "sha256": "c66fadb60e62bc69b015c9f84871ce5d592fa1da7991389d326970b9edf63828",
+   "station": "WB012",
+   "rows_kept": 29727,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 29727
+  },
+  {
+   "file_name": "WB013.csv",
+   "sha256": "49da843c4505cfffe3f4d5e5b9472c905115347950c978d5bfc9bde51a506cbd",
+   "station": "WB013",
+   "rows_kept": 29900,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 29900
+  },
+  {
+   "file_name": "WB014.csv",
+   "sha256": "0ab8d03cbd0a85a276bc15d7a24301c221cf61f3e1f9fd7c607563e0303ea0ce",
+   "station": "WB014",
+   "rows_kept": 29438,
+   "structural_absence": [],
+   "mapping_log": [
+    {
+     "feature": "WD",
+     "raw": "WD (degree)",
+     "action": "alias",
+     "factor": 1.0,
+     "rationale": "alternate header with identical meaning and unit"
+    }
+   ],
+   "duplicates_dropped": 0,
+   "unique_contributed": 29438
+  }
+ ],
+ "records_sha256": "727178b97d2b728a7314c78268a380b2c05cd99d809167dc1a8f7510da287e7a",
+ "build_seconds": 32.5,
+ "signature": "1ba951735ba858c22a95e4ca50b1eec45252006f56c7647ac75df7572f35a2a1",
+ "note": "Initial dataset: 141 verified files"
+}

@@ -1,0 +1,7 @@
+{% extends "base.html" %}{% block body %}
+<section class="section"><div class="wrap">
+  <p class="eyebrow">Research Lab</p><h1>Results: accuracy, robustness and latency</h1>
+  <p class="lead">Every number and chart on this page is read from the saved experiment artifacts of the model under evaluation.</p>
+  <div id="lab" class="stack"><div class="skel" aria-hidden="true">&nbsp;</div></div>
+</div></section>
+{% endblock %}{% block scripts %}<script src="{{ url_for('static', filename='js/research.js') }}"></script>{% endblock %}

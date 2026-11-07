@@ -1,0 +1,121 @@
+{
+ "features": [
+  {
+   "name": "PM10",
+   "unit": "ug/m3",
+   "label": "PM10",
+   "valid_range": [
+    0,
+    1000
+   ]
+  },
+  {
+   "name": "NO",
+   "unit": "ug/m3",
+   "label": "Nitric oxide",
+   "valid_range": [
+    0,
+    500
+   ]
+  },
+  {
+   "name": "NO2",
+   "unit": "ug/m3",
+   "label": "Nitrogen dioxide",
+   "valid_range": [
+    0,
+    500
+   ]
+  },
+  {
+   "name": "NOx",
+   "unit": "ppb",
+   "label": "Nitrogen oxides",
+   "valid_range": [
+    0,
+    500
+   ]
+  },
+  {
+   "name": "SO2",
+   "unit": "ug/m3",
+   "label": "Sulphur dioxide",
+   "valid_range": [
+    0,
+    500
+   ]
+  },
+  {
+   "name": "CO",
+   "unit": "mg/m3",
+   "label": "Carbon monoxide",
+   "valid_range": [
+    0,
+    50
+   ]
+  },
+  {
+   "name": "O3",
+   "unit": "ug/m3",
+   "label": "Ozone",
+   "valid_range": [
+    0,
+    500
+   ]
+  },
+  {
+   "name": "RH",
+   "unit": "%",
+   "label": "Relative humidity",
+   "valid_range": [
+    0,
+    100
+   ]
+  },
+  {
+   "name": "WS",
+   "unit": "m/s",
+   "label": "Wind speed",
+   "valid_range": [
+    0,
+    50
+   ]
+  },
+  {
+   "name": "WD",
+   "unit": "degrees",
+   "label": "Wind direction",
+   "valid_range": [
+    0,
+    360
+   ]
+  },
+  {
+   "name": "SR",
+   "unit": "W/m2",
+   "label": "Solar radiation",
+   "valid_range": [
+    0,
+    1500
+   ]
+  },
+  {
+   "name": "AT",
+   "unit": "deg C",
+   "label": "Ambient temperature",
+   "valid_range": [
+    -10,
+    55
+   ]
+  }
+ ],
+ "target": {
+  "name": "PM2.5",
+  "unit": "ug/m3",
+  "range": [
+   0.0,
+   1000.0
+  ]
+ },
+ "task": "same-hour PM2.5 estimation from co-located sensors (not forecasting)"
+}

@@ -1,0 +1,40 @@
+{
+ "experiment_id": "exp-0001",
+ "created_utc": "2026-10-23T11:05:16+00:00",
+ "model_id": "model-0001",
+ "model_sha256": "de54ae9579a86b221b965461d32022b7e127780aa21c302d6c1fbd652842cda9",
+ "dataset_version": "ds-0001",
+ "benchmark_id": "bench-v1",
+ "benchmark_sha256": "2f8e00e1a7083d14cf006a4d9f5cf96821e523cbbbe321f6fcec734dab0f719e",
+ "trials": 10,
+ "rates": [
+  0.0,
+  0.1,
+  0.2
+ ],
+ "patterns": [
+  "random",
+  "consecutive"
+ ],
+ "seed": 2024,
+ "block_len_range": [
+  6,
+  48
+ ],
+ "latency_records": 200,
+ "latency_warmup": 20,
+ "environment": {
+  "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39",
+  "python": "3.13.16",
+  "cpu_count": 2,
+  "machine": "x86_64",
+  "sklearn": "1.9.1",
+  "numpy": "2.5.3"
+ },
+ "seconds": 182.5,
+ "test_rows": {
+  "temporal": 406561,
+  "spatial": 102520
+ },
+ "note": "Software simulation on the host computer, not physical edge hardware."
+}

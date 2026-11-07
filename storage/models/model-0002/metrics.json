@@ -1,0 +1,142 @@
+{
+ "candidates": [
+  {
+   "name": "median_baseline",
+   "kind": "baseline",
+   "val": {
+    "mae": 31.8245829956926,
+    "rmse": 45.66296787809742,
+    "r2": -0.002014834915232022,
+    "n": 410449
+   },
+   "train": {
+    "mae": 54.069065667279524,
+    "rmse": 95.94825349509915,
+    "r2": -0.100295220973178,
+    "n": 1931112
+   },
+   "latency_ms": 0.0,
+   "size_mb": 0.0,
+   "fit_seconds": 0.0
+  },
+  {
+   "name": "random_forest_leaf10",
+   "kind": "rf",
+   "config": {
+    "min_samples_leaf": 10,
+    "max_features": 0.6
+   },
+   "val": {
+    "mae": 16.616249808738907,
+    "rmse": 29.50538066304432,
+    "r2": 0.5816417620963967,
+    "n": 410449
+   },
+   "train": {
+    "mae": 13.274684899011785,
+    "rmse": 32.90153116295187,
+    "r2": 0.7230973139818389,
+    "n": 200000
+   },
+   "latency_ms": 2.6715625,
+   "size_mb": 78.74,
+   "fit_seconds": 119.8
+  },
+  {
+   "name": "random_forest_leaf30",
+   "kind": "rf",
+   "config": {
+    "min_samples_leaf": 30,
+    "max_features": 0.6
+   },
+   "val": {
+    "mae": 16.647872727025508,
+    "rmse": 29.565189804783355,
+    "r2": 0.5799439695744413,
+    "n": 410449
+   },
+   "train": {
+    "mae": 14.486558125972483,
+    "rmse": 35.134625219540624,
+    "r2": 0.6842338295668964,
+    "n": 200000
+   },
+   "latency_ms": 2.5356045,
+   "size_mb": 27.7,
+   "fit_seconds": 104.6
+  },
+  {
+   "name": "extra_trees",
+   "kind": "et",
+   "config": {
+    "min_samples_leaf": 10,
+    "max_features": 0.8
+   },
+   "val": {
+    "mae": 17.112200906417325,
+    "rmse": 29.8722492913862,
+    "r2": 0.571173386031308,
+    "n": 410449
+   },
+   "train": {
+    "mae": 15.137874618144405,
+    "rmse": 36.08078472830103,
+    "r2": 0.6669979565246933,
+    "n": 200000
+   },
+   "latency_ms": 2.6066045,
+   "size_mb": 74.7,
+   "fit_seconds": 25.1
+  },
+  {
+   "name": "hist_gradient_boosting",
+   "kind": "hgb",
+   "config": {
+    "max_iter": 250,
+    "learning_rate": 0.08,
+    "max_leaf_nodes": 63
+   },
+   "val": {
+    "mae": 16.763338356760443,
+    "rmse": 29.64745104965356,
+    "r2": 0.5776032165710412,
+    "n": 410449
+   },
+   "train": {
+    "mae": 15.282077283929477,
+    "rmse": 34.65991845684622,
+    "r2": 0.6927088712012868,
+    "n": 200000
+   },
+   "latency_ms": 5.7971664999999994,
+   "size_mb": 0.85,
+   "fit_seconds": 25.5
+  }
+ ],
+ "selected": "random_forest_leaf30",
+ "test": {
+  "test_temporal": {
+   "mae": 22.361893921084754,
+   "rmse": 38.64839705344108,
+   "r2": 0.7576761766363806,
+   "n": 406561,
+   "baseline_rmse": 84.96972226643774
+  },
+  "test_spatial": {
+   "mae": 20.816531345384277,
+   "rmse": 37.31468636764103,
+   "r2": 0.7783356432656334,
+   "n": 102520,
+   "baseline_rmse": 83.54137855609406
+  }
+ },
+ "split_counts": {
+  "train": 1931112,
+  "val": 410449,
+  "test_temporal": 406561,
+  "test_spatial": 102520,
+  "reserve": 4100,
+  "excluded": 498363
+ },
+ "selection_rule": "lowest validation RMSE; within 1% -> lowest single-record latency, then val MAE, then size"
+}

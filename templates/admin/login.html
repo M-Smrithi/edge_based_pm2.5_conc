@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sign in · Edge Air Admin</title><meta name="robots" content="noindex"><meta name="csrf" content="{{ csrf }}">
+<link rel="icon" href="{{ url_for('static', filename='img/logo.svg') }}" type="image/svg+xml"><link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}"></head>
+<body><main class="login"><div class="card stack"><a class="brand" href="/"><img src="{{ url_for('static', filename='img/logo.svg') }}" alt="" width="30" height="30"><span>Edge Air · Admin</span></a>
+<div><h2>Sign in</h2><p class="muted small">Private workspace for dataset, model and experiment management. Accounts are created by an existing administrator or on the server command line — there is no public registration.</p></div>
+<form id="f" novalidate><div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="username" required></div>
+<div class="field"><label for="pw">Password</label><input id="pw" name="password" type="password" autocomplete="current-password" required></div>
+<div id="err" class="notice bad" role="alert" hidden></div><button class="btn primary" type="submit">Sign in</button></form>
+<p class="small"><a href="/">← Back to public site</a></p></div></main>
+<script src="{{ url_for('static', filename='js/core.js') }}"></script><script src="{{ url_for('static', filename='js/admin_login.js') }}"></script></body></html>

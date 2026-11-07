@@ -1,0 +1,12 @@
+{% extends "base.html" %}{% block body %}
+<section class="section"><div class="wrap">
+  <p class="eyebrow">Prediction Studio</p><h1>Estimate PM2.5 from partial sensor data</h1>
+  <p class="lead">Enter whichever readings you have. Anything missing, invalid or out of range is filled with the model's training median, and every substitution is shown to you.</p>
+  <div id="ps-status"></div>
+  <div class="tabs" role="tablist" aria-label="Input mode"><button role="tab" id="tab-one" aria-selected="true" aria-controls="p-one">Single record</button><button role="tab" id="tab-csv" aria-selected="false" aria-controls="p-csv">CSV upload</button></div>
+  <div id="p-one" role="tabpanel" aria-labelledby="tab-one"><div class="grid g2"><form id="one-form" class="card" novalidate><div id="one-fields" class="grid g2"></div><div class="row"><button class="btn primary" type="submit">Estimate PM2.5</button><button class="btn" type="reset">Clear all</button></div></form><div id="one-result" class="card"><div class="empty"><h3>No estimate yet</h3><p>Fill in any readings and press Estimate.</p></div></div></div></div>
+  <div id="p-csv" role="tabpanel" aria-labelledby="tab-csv" hidden><div class="stack">
+    <div class="card"><div id="drop" class="drop" tabindex="0" role="button" aria-label="Choose a CSV file"><strong>Drop a CSV here or click to choose</strong><div class="muted small">.csv · up to 5 MB · up to 20,000 rows · columns named PM10, NO2, … or CPCB headers such as “PM10 (ug/m3)”</div></div><input id="file" type="file" accept=".csv,text/csv" class="sr"><div class="row"><a class="btn sm" href="/api/public/template.csv">Download input template</a><span class="muted small">Uploaded rows are used only for this prediction and are never added to training data.</span></div></div>
+    <div id="csv-result"></div></div></div>
+</div></section>
+{% endblock %}{% block scripts %}<script src="{{ url_for('static', filename='js/predict.js') }}"></script>{% endblock %}

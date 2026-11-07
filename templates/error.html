@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block body %}<section class="section"><div class="wrap narrow"><p class="eyebrow">Error {{ code }}</p><h1>{{ "Page not found" if code == 404 else "Something went wrong" }}</h1><p class="lead">{{ message }}</p><p><a class="btn primary" href="/">Back to overview</a></p></div></section>{% endblock %}
